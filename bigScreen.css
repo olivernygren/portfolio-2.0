@@ -1,0 +1,14 @@
+@media (min-width: 1500px) {
+  .hero {
+    padding: 5rem 7rem;
+  }
+
+  .my-work .content {
+    padding: 3rem 0 0 0;
+  }
+
+  .about-me {
+    margin-top: -12rem;
+    padding: 18rem 5rem 0rem 5rem;
+  }
+}
