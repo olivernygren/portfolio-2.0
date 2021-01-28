@@ -1,0 +1,22 @@
+@media (min-width: 2000px) {
+  .second-project {
+    margin-top: -12rem;
+    padding: 18rem 5rem 2rem 5rem;
+  }
+
+  .about-me {
+    margin-top: -14rem;
+    padding: 22rem 5rem 0rem 5rem;
+  }
+}
+@media (min-width: 2500px) {
+  .second-project {
+    margin-top: -12rem;
+    padding: 18rem 5rem 2rem 5rem;
+  }
+
+  .about-me {
+    margin-top: -16rem;
+    padding: 22rem 5rem 0rem 5rem;
+  }
+}

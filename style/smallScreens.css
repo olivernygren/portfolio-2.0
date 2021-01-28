@@ -1,0 +1,59 @@
+@media(max-width: 860px) {
+
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .active {
+    box-shadow: 0px 5px 15px 5px rgb(0, 0, 0);
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .logo {
+    position: fixed;
+    top: -0.15rem;
+}
+
+  .hero img {
+    display: none;
+  }
+
+  .hero .text {
+    width: 100%;
+    padding: 6rem 0 2rem 0;
+  }
+
+  .my-skill-set .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-skill-set .card {
+    width: 50%;
+  }
+}
+
+@media(min-width: 861px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+
+/* fixing margin issues */
+
+@media (max-width: 740px) {
+  .about-me {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 635px) {
+  .second-project {
+    margin-top: -4rem;
+  }
+}

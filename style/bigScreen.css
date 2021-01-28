@@ -7,8 +7,12 @@
     padding: 3rem 0 0 0;
   }
 
+  .second-project {
+    margin-top: -8.5rem;
+  }
+
   .about-me {
-    margin-top: -12rem;
+    margin-top: -10rem;
     padding: 18rem 5rem 0rem 5rem;
   }
 }

@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+  header {
+    padding: 0 2rem;
+  }
+
+  .hamburger-menu {
+    right: 2rem;
+  }
+}

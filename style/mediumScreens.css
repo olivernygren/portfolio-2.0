@@ -1,0 +1,99 @@
+@media (max-width: 1080px) {
+  .hero {
+    padding: 3rem 5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero img {
+    width: 22rem;
+  }
+
+  .my-work h3 {
+    font-size: 2rem;
+  }
+
+  .my-work .text {
+    padding: 0 3rem 0 0;
+  }
+
+  .my-work .content {
+    align-items: center;
+  }
+
+  .my-work .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-work .image {
+    margin-top: 4rem;
+  }
+  
+  .my-work .image img {
+    width: 100%;
+  }
+
+  .second-project {
+    margin-top: -5rem;
+    padding: 10rem 5rem 2rem;
+  }
+
+  .second-project .content {
+    flex-direction: column;
+  }
+
+  .second-project .image img {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .about-me {
+    margin-top: -5.5rem;
+  }
+
+  .about-me .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me .content .card {
+    width: 25rem;
+  }
+
+  .about-me .content .text {
+    margin: 3rem 0 0 0;
+    text-align: center;
+  }
+
+  .my-skill-set .card {
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    margin: 1.5rem;
+  }
+
+  .my-skill-set .text {
+    padding: 0 .75rem;
+  }
+
+  .contact-section .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-section .text {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+  }
+
+  footer .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .section {
+    margin: 1rem 0;
+  }
+}
