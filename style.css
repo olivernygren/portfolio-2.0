@@ -49,6 +49,11 @@ header.active {
   transition: all 300ms ease-in-out;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: unset;
+}
+
 .logo {
   font-family: 'Norican';
   font-weight: bold;
@@ -673,6 +678,11 @@ footer .section-2 .links {
 footer .section-2 .links img {
   height: 2.5rem;
   margin: 0 .74rem;
+}
+
+.mail-link, .call-link {
+  color: white;
+  text-decoration: none;
 }
 
 /* #endregion */

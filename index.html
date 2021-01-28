@@ -25,7 +25,9 @@
 <body id="top">
 
   <header id="header">
-    <h2 class="logo">Oliver <b>Nygren</b> </h2>
+    <a class="logo-link" href="#top">
+      <h2 class="logo">Oliver <b>Nygren</b> </h2>
+    </a>
     <nav class="desktop-nav">
       <ul>
         <li><a href="#top">Home</a></li>
@@ -42,10 +44,10 @@
         <div class="line line-3"></div>
       </div>
       <ul>
-        <li><a class="mobile-nav-link" href="#">Home</a></li>
-        <li><a class="mobile-nav-link" href="#">My Work</a></li>
-        <li><a class="mobile-nav-link" href="#">About Me</a></li>
-        <li><a class="mobile-nav-link" href="#">Contact</a></li>
+        <li><a class="mobile-nav-link" href="#top">Home</a></li>
+        <li><a class="mobile-nav-link" href="#my-work">My Work</a></li>
+        <li><a class="mobile-nav-link" href="#about-me">About Me</a></li>
+        <li><a class="mobile-nav-link" href="#contact-section">Contact</a></li>
       </ul>
     </nav> 
   </header>
@@ -55,8 +57,8 @@
       <h5 class="subtitle">Front End Developer & UI Designer</h5>
       <h1>Developing and designing the web experience.</h1>
       <div class="hero-buttons">
-        <a href="#" class="left-btn btn">My Work</a>
-        <a href="#" class="right-btn btn">Contact Me</a>
+        <a href="#my-work" class="left-btn btn">My Work</a>
+        <a href="#contact-section" class="right-btn btn">Contact Me</a>
       </div>
     </div>
     <img src="./images/hero-design.svg" alt="guy coding" class="hero-design">
@@ -72,7 +74,7 @@
         <h3>D.E & P - Recruitment Firm</h3>
         <p>This is a website that I was asked to design and develop for a recruitment company. They had no previous website, so everything is built and designed from scratch, by me. The first page is meant to catch the eye of potential customers. They also asked for five separate pages with information. The design is meant to look professional and relatively simple, with orange being the standout color.</p>
         <p class="bottom">I was also asked to design a logo for this company. They wanted the logo to have a base of "3", based on the three thing the company stands for, therefor the 3 circles with different shades of orange. They also wanted a star in the logo, which became the dot between the D and the E. The '&' sign has a lighter shade than the letters to really make the letters stand out more.</p>
-        <a href="#" class="my-work-btn btn">Visit Site</a>
+        <a href="https://olivernygren.github.io/business-webiste/" class="my-work-btn btn" target="_blank">Visit Site</a>
       </div>
       <div class="image">
         <img class="first-img" src="./images/dep-landing-page-thumbnail.png" alt="starting page">
@@ -86,10 +88,10 @@
   <div class="second-project">
     <div class="content">
       <div class="text">
-        <h5 class="subtitle">Featured Project</h5>
+        <h5 class="subtitle">One of My Other Projects</h5>
         <h3>Falling Stars <b>(Game)</b> </h3>
         <p>Falling Stars is a game that I, along with five other classmates, built completely from scratch as part of a school project. The game is 2D and combines OOP with TypeScript and the p5js library. The game and its design is meant to have a dark, scary feel to it, enhanced even more by the in-game music. The goal is to catch as many stars as possible, while avoiding being hit by the nails. Can you help little Willow get her teddy bear back?</p>
-        <a href="#" class="play-game-btn btn">Play Game</a>
+        <a href="https://falling-stars.netlify.app" class="play-game-btn btn" target="_blank">Play Game</a>
       </div>
       <div class="image">
         <img src="./images/fs-thumbnail.png" alt="falling stars game">
@@ -191,16 +193,28 @@
     <div class="content">
       <div class="section section-1">
         <h5>Contact Info</h5>
-        <p><i class="fas fa-envelope"></i>oliver.nygren@icloud.com</p>
-        <p><i class="fas fa-phone-alt"></i>+46 703 20 25 60</p>
+        <a class="mail-link" href="mailto:oliver.nygren@icloud.com">
+          <p><i class="fas fa-envelope"></i>oliver.nygren@icloud.com</p>
+        </a>
+        <a class="call-link" href="tel:1-562-867-5309">
+          <p><i class="fas fa-phone-alt"></i>+46 703 20 25 60</p>
+        </a>
       </div>
       <div class="section section-2">
         <h5>Social Links</h5>
         <div class="links">
-          <img src="./images/social-logo-behance.svg" alt="behance" class="behance">
-          <img src="./images/social-logo-dribbble.svg" alt="dribbble" class="dribbble">
-          <img src="./images/social-logo-fiverr.svg" alt="fiverr" class="fiverr">
-          <img src="./images/social-logo-github.svg" alt="github" class="github">
+          <a href="https://www.behance.net/olivernygren" class="social-link">
+            <img src="./images/social-logo-behance.svg" alt="behance" class="behance">
+          </a>
+          <a href="https://dribbble.com/olivernygren" class="social-link">
+            <img src="./images/social-logo-dribbble.svg" alt="dribbble" class="dribbble">
+          </a>
+          <a href="https://www.fiverr.com/olivernygren?public_mode=true" class="social-link">
+            <img src="./images/social-logo-fiverr.svg" alt="fiverr" class="fiverr">
+          </a>
+          <a href="https://github.com/olivernygren" class="social-link">
+            <img src="./images/social-logo-github.svg" alt="github" class="github">
+          </a>
         </div>
       </div>
       <div class="section section-3">
