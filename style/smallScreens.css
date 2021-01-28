@@ -50,10 +50,26 @@
   .about-me {
     margin-top: -4rem;
   }
+
+  .my-skill-set .card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 635px) {
   .second-project {
     margin-top: -4rem;
+  }
+
+  .contact-section .content {
+    padding: 3rem 2.5rem;
+  }
+
+  .contact-section .contact {
+    width: 95%;
+  }
+
+  .contact form {
+    width: 100%;
   }
 }

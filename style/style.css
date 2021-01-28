@@ -28,6 +28,10 @@ body {
   width: 100vw;
 }
 
+.waves-4 {
+  margin-top: -0.1rem;
+}
+
 /* #region header */
 
 header {
