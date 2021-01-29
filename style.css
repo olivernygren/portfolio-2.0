@@ -42,10 +42,6 @@ body {
   font-size: 1.25rem;
 }
 
-/* .scroll-top-btn .display-none {
-  display: none;
-} */
-
 .scroll-top-btn:hover {
   transform: scale(1);
 }
