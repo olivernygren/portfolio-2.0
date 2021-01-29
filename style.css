@@ -24,8 +24,7 @@ body {
 
 .scroll-top-btn {
   position: fixed;
-  background: #34ed67;
-  /* background: black; */
+  background: black;
   width: 3.25rem;
   height: 3.25rem;
   bottom: 10px;
@@ -60,6 +59,52 @@ body {
 .waves-4 {
   margin-top: -0.1rem;
 }
+
+/* #region intro */
+
+.intro {
+  height: 100vh;
+  background: black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  height: 100vh;
+  background: rgb(20, 24, 38);
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-size: 3.5rem;
+}
+
+.hide {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+/* #endregion */
 
 /* #region header */
 

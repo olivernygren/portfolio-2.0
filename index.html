@@ -15,11 +15,14 @@
   <link rel="stylesheet" href="./smallScreens.css">
   <link rel="stylesheet" href="./mobile.css">
   <script src=https://kit.fontawesome.com/369fccfd9c.js crossorigin="anonymous"></script>
+  <!-- gsap Animations --> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+  <!-- gsap Scroll Trigger --> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
   <script defer src="./scrollTriggers.js"></script>
   <script defer src="./contact-form-handler.js"></script>
   <script defer src="./hamburger-menu.js"></script>
   <script defer src="./url.js"></script>
   <script defer src="./scrollTopBtn.js"></script>
+  <script defer src="./animations.js"></script>
   <title>Oliver Nygren | Front End Developer & UI Designer</title>
 </head>
 
@@ -57,8 +60,20 @@
     <i class="fas fa-arrow-up"></i>
   </div>
 
+  <div class="intro">
+    <div class="intro-text">
+      <h2 class="hide">
+        <span class="intro-span">Hi,</span>
+      </h2>
+      <h2 class="hide">
+        <span class="intro-span">I am Oliver Nygren</span>
+      </h2>
+    </div>
+  </div>
+  <div class="slider"></div>
+
   <div class="hero">
-    <div class="text">
+    <div class="text hero-animation">
       <h5 class="subtitle">Front End Developer & UI Designer</h5>
       <h1>Developing and designing the web experience.</h1>
       <div class="hero-buttons">
@@ -66,7 +81,7 @@
         <a href="#contact-section" class="right-btn btn">Contact Me</a>
       </div>
     </div>
-    <img src="./images/hero-design.svg" alt="guy coding" class="hero-design">
+    <img src="./images/hero-design.svg" alt="guy coding" class="hero-design hero-animation">
   </div>
 
   <img src="./images/waves-1.svg" alt="start of my work section" class="waves-1" id="my-work">
@@ -74,14 +89,14 @@
   <div class="my-work">
     <h2>My Work</h2>
     <div class="content">
-      <div class="text">
+      <div class="text transition2">
         <h5 class="subtitle">Featured Project</h5>
         <h3>D.E & P - Recruitment Firm</h3>
         <p>This is a website that I was asked to design and develop for a recruitment company. They had no previous website, so everything is built and designed from scratch, by me. The first page is meant to catch the eye of potential customers. They also asked for five separate pages with information. The design is meant to look professional and relatively simple, with orange being the standout color.</p>
         <p class="bottom">I was also asked to design a logo for this company. They wanted the logo to have a base of "3", based on the three things the company stands for, therefor the 3 circles with different shades of orange. They also wanted a star in the logo, which became the dot between the D and the E. The '&' sign has a lighter shade than the letters to really make the letters stand out more.</p>
         <a href="https://olivernygren.github.io/business-webiste/" class="my-work-btn btn" target="_blank">Visit Site</a>
       </div>
-      <div class="image">
+      <div class="image transition2">
         <img class="first-img" src="./images/dep-landing-page-thumbnail.png" alt="starting page">
         <img class="second-img" src="./images/dep-start-page-card-thumbnail.png" alt="continued page">
       </div>
@@ -92,13 +107,13 @@
 
   <div class="second-project">
     <div class="content">
-      <div class="text">
+      <div class="text transition3">
         <h5 class="subtitle">One of My Other Projects</h5>
         <h3>Falling Stars <b>(Game)</b> </h3>
-        <p>Falling Stars is a game that I, along with five other classmates, built completely from scratch as part of a school project. The game is 2D and combines OOP with TypeScript and the p5js library. The game and its design is meant to have a dark, scary feel to it, enhanced even more by the in-game music. The goal is to catch as many stars as possible, while avoiding being hit by the nails. Can you help little Willow get her teddy bear back?</p>
+        <p>Falling Stars is a game that I, along with five other classmates, built completely from scratch as part of a school project. The game is web-based, desktop-compatible, 2D and combines OOP with TypeScript and the p5js library. The game and its design is meant to have a dark, scary feel to it, enhanced even more by the in-game music. The goal is to catch as many stars as possible, while avoiding being hit by the nails. Can you help little Willow get her teddy bear back?</p>
         <a href="https://falling-stars.netlify.app" class="play-game-btn btn" target="_blank">Play Game</a>
       </div>
-      <div class="image">
+      <div class="image transition3">
         <img src="./images/fs-thumbnail.png" alt="falling stars game">
       </div>
     </div>
@@ -108,12 +123,12 @@
     
   <div class="about-me">
     <div class="content">
-      <div class="card">
+      <div class="card transition4">
         <img src="./images/me-square.jpg" alt="picture of me">
         <h5>Oliver Nygren</h5>
         <p><b>Name</b> &#8594; Oliver Nygren<br><b>Age</b> &#8594; 19<br><b>Base of Operation</b> &#8594; Gothenburg, SWE<br><b>Favorite Field</b> &#8594; UX/UI and General Design<br><br></p>
       </div>
-      <div class="text">
+      <div class="text transition4">
         <h3>About Me</h3>
         <p><b>Arsenal</b> fan til' I die. Self taught on everything <b>Bodybuilding</b>, training, nutrition and supplementation. Basically live at the gym for 6 days per week to constantly try and be a better version of myself. Huge <b>'The Office US'</b> and <b>'Hawaii Five-O'</b> fan. Free time is spent freelancing, at the gym or with the girlfriend. Fluent in both Swedish and English.</p>
         <p>I'm currently studying Front End Development at Medieinstitutet, Gothenburg, Sweden, graduating in the summer of 2022. My strengths are UI Design and Web Development.</p>
@@ -128,7 +143,7 @@
 
     <h2>My Skill Set</h2>
     <div class="cards">
-      <div class="card card-1">
+      <div class="card card-1 transition5">
         <div class="logos">
           <!-- JS -->
           <img src="./images/logo_javascript.svg" alt="javascript logo" class="js-logo">
@@ -142,7 +157,7 @@
           <p>This is where my interest in Front End Development and design took off. I have experience with HTML, CSS, Sass and JavaScript and use these to build my websites.</p>
         </div>
       </div>
-      <div class="card card-2">
+      <div class="card card-2 transition5">
         <div class="logos">
           <!-- Figma -->
           <img src="./images/logo_figma.svg" alt="figma logo" class="figma-logo">
@@ -154,7 +169,7 @@
           <p>UX/UI Design is probably my favorite field within Front End Development. I tend to put in a lot of effort into every part of my designs. I create these in either Figma or Adobe XD, however, I am very comfortable with both.</p>
         </div>
       </div>
-      <div class="card card-3">
+      <div class="card card-3 transition5">
         <div class="logos">
           <!-- React -->
           <img src="./images/logo_react.svg" alt="react logo" class="react-logo">
