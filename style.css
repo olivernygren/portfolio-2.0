@@ -9,13 +9,45 @@
   box-sizing: border-box;
 }
 
+body, html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   background: url(./images/spikes.png);
-  overflow-x: hidden;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  background: black;
+  width: 3.25rem;
+  height: 3.25rem;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transform: scale(.925);
+  transition: 200ms ease-in-out;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.234);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+/* .scroll-top-btn .display-none {
+  display: none;
+} */
+
+.scroll-top-btn:hover {
+  transform: scale(1);
 }
 
 .btn {
@@ -374,6 +406,7 @@ nav a {
 .second-project .image img {
   width: 32rem;
   border-radius: 10px;
+  height: auto;
 }
 
 .second-project .text {
@@ -683,6 +716,10 @@ footer .section-2 .links img {
 .mail-link, .call-link {
   color: white;
   text-decoration: none;
+}
+
+.mail-link p {
+  white-space: nowrap;
 }
 
 /* #endregion */
