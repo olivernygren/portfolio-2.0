@@ -1,4 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
+gsap.defaults({overwrite: 'auto'});
 const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
 
 tl.to('.intro-span', { 
