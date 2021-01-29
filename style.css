@@ -24,7 +24,8 @@ body {
 
 .scroll-top-btn {
   position: fixed;
-  background: black;
+  background: #34ed67;
+  /* background: black; */
   width: 3.25rem;
   height: 3.25rem;
   bottom: 10px;
@@ -397,12 +398,13 @@ nav a {
 .second-project .image {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .second-project .image img {
   width: 32rem;
   border-radius: 10px;
-  height: auto;
+  /* height: auto; */
 }
 
 .second-project .text {
