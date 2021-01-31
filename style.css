@@ -35,6 +35,7 @@ body {
   transform: scale(.925);
   transition: 200ms ease-in-out;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.234);
+  z-index: 10000;
 
   display: none;
   justify-content: center;
